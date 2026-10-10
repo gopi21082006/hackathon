@@ -1,0 +1,17 @@
+{
+  "name": "wellbeing-backend",
+  "version": "1.0.0",
+  "description": "Backend API and AI Pattern Analysis Engine for Emotional Well-being Tracker",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

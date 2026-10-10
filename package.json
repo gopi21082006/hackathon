@@ -1,0 +1,22 @@
+{
+  "name": "emotional-wellbeing-tracker-workspace",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Emotional Well-being Tracker: Mobile Notification App + Desktop Web Dashboard with AI Pattern Insights",
+  "scripts": {
+    "dev": "node scripts/start-all.js",
+    "start": "node scripts/start-all.js",
+    "backend": "node backend/server.js",
+    "frontend": "npm run dev --prefix frontend",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "node -e \"fetch('http://localhost:5000/api/seed', {method:'POST'}).then(r=>r.json()).then(console.log)\""
+  },
+  "keywords": [
+    "emotional-wellbeing",
+    "digital-wellbeing",
+    "ai-insights",
+    "offline-first"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
